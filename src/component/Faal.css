@@ -9,13 +9,16 @@
     font-family: 'rezvan', sans-serif;
 }
 .container{
-    background-color: rgba(236, 199, 91,.8);
+    background-color: rgba(244, 188, 19, 0.829);
     height: 100vh;
     width: 47%;
     margin-left: auto;
     margin-right: 5%;
     border-radius: 15px;
     padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .faal-box, .tafsir-box{
@@ -48,14 +51,12 @@
 .main-page-btn{
     display: block;
     background-color: #DFE9F3;
-    height: 40px;
-    width: 140px;
-    border-radius: 15px 0 15px 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px 0 25px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    text-decoration: none;
-    color: #000;
+
 }
 
